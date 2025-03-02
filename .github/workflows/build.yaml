@@ -41,7 +41,7 @@ jobs:
             type=ref,event=branch
             type=ref,event=pr
             type=edge
-          labels: org.opencontainers.image.source=https://github.com/zebernst/synology-csi-talos
+          labels: org.opencontainers.image.source=https://github.com/citizenadam/synology-csi-talos
 
       - name: Build and push
         uses: docker/build-push-action@v4
